@@ -1,0 +1,19 @@
+MARKET DATA SCRAPER STARTED
+
+--------------------------------------------------
+* Fetching Gold data from tgju.org...
+   ✅ Extracted Price (18K Gold): 197,052,000 IRR
+ + Raw HTML successfully saved to'outputs/gold\raw_page.html'
+ + 3 Images successfully downloaded to 'outputs/gold\images'
+ + Clean HTML successfully saved to 'outputs/gold\clean_page.html'
+ + Pure text successfully saved to 'outputs/gold\pure_text.txt'
+--------------------------------------------------
+* Fetching Oil data from oilprice.com...
+   ✅ Extracted Price (Brent Crude): $71.76 USD
+ + Raw HTML successfully saved to'outputs/oil\raw_page.html'
+ + 3 Images successfully downloaded to 'outputs/oil\images'
+ + Clean HTML successfully saved to 'outputs/oil\clean_page.html'
+ + Pure text successfully saved to 'outputs/oil\pure_text.txt'
+
+--------------------------------------------------
+SCRAPING PROCESS COMPLETED
