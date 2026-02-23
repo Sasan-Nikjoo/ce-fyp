@@ -87,7 +87,7 @@ try:
             gold_price = gold_element.text.strip()
             print(f"   ✅ Extracted Price (18K Gold): {gold_price} IRR")
         else:
-            print("   ⚠️Gold price element not found!")
+            print("❌    Gold price element not found!")
 
         # Save Files
         save_scraped_data("gold", response_gold.text, soup_gold, url_gold)
@@ -115,9 +115,9 @@ try:
                 oil_price = oil_element.get_text(strip=True)
                 print(f"   ✅ Extracted Price (Brent Crude): ${oil_price} USD")
             else:
-                print("   ⚠️Oil price value column not found!")
+                print("❌    Oil price value column not found!")
         else:
-            print("   ⚠️Brent Crude row not found!")
+            print("❌    Brent Crude row not found!")
 
         # Save Files
         save_scraped_data("oil", response_oil.text, soup_oil, url_oil)
